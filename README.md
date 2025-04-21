@@ -26,14 +26,19 @@ If either of these conditions is not satisfied, the landing is **unsafe**, and t
 ## Install
 Make sure you have Python 3. Then run:
 ```bash
+cd QuadrotorSim
 pip install -r requirements.txt
 ```
 
 ## Run Game
+1. Run the game 20 times (the command below will need to be run everytime the game completes).
+2. Position the game window so the entire window is visible.
+
 ```bash
 python3 main.py
 ```
-Run the game 20 times. A `logs` folder will be created with game logs. **Do not** modify anything in this folder.
+
+A `logs` folder will be created with game logs. **Do not** modify anything in this folder.
 
 ## Submit Your Logs
 1. After playing the game 20 times, locate the `logs` folder.
